@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Images/7973193_3398605.jpg);
+    position: sticky;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.main-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/* Navbar */
+.sec-1{
+    position: sticky;
+    top: 0;
+}
+.main-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #393e46;
+    box-shadow: rgb(19 17 14) 0px 0px 7px 2px;
+    background-color: rgb(22 19 59);
+    
+    /* background-color: #f96d00; */
+}
+.main-1 .brand{
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+    text-decoration: none;
+}
+
+.main-1 .menu{
+    display: flex;
+    align-items: center;
+}
+
+.main-1 .menu li > a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.main-1 .menu li{
+    list-style: none;
+    margin: 0 2rem;
+    border-bottom: 2px solid rgb(22 19 59);
+    transition-property: border-bottom;
+    transition-duration: 0.25s;
+    
+    
+}
+.main-1 .menu li:hover{
+    border-bottom: 2px solid #d2a34d;
+}
+
+.main-1 button{
+    display: flex;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #f86c6b;
+    color: black;
+    transition-property: background-color, color, transform;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    
+    
+    /* margin-left: 10rem; */
+} 
+
+.main-1 button a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-1 button:active{
+    background-color: #f2f2f2;
+    color: black;
+}
+.main-1 button:hover{
+    transform: scale(1.05);
+}
+
+.registration-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    /* background-color: rgba(0, 0, 0, 0.478); */
+    /* position: fixed; */
+    top: 0%;
+    left: 0%;
+    /* display: none; */
+
+}
+
+textarea{
+    height: 10vh;
+    resize: none;
+    transition-property: height;
+    transition-duration: 0.5s;
+}
+textarea:focus{
+    height: 20vh;
+}
+.inner-form{
+    margin-top: 3rem;
+    padding: 1rem;
+    width: 25%;
+    height: 90%;
+    background-color: rgb(22 19 59);
+    box-shadow: rgb(19 17 14) 0px 0px 7px 2px;
+    border-radius: 12px;
+}
+.inner-form .regi-user-pass{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-form .regi-user-pass label{
+    color: #d2a34d;
+    padding: 1rem 0.5rem;
+    margin-left: 0.5rem;
+}
+.inner-form .regi-user-pass input{
+    width: 60%;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #d2a34d;
+    transition-property: width;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.inner-form .regi-user-pass input:focus{
+    width: 90%;
+
+}
+
+.save-reset{
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.save-reset .save{
+    margin-right: 1rem;
+    border-radius: 8px;
+    padding: 2px 5px;
+    background-color: #d2a34d;
+    transition-property: box-shadow, background-color, color, cursor;
+    transition-duration: 0.25s;
+}
+.save-reset .save:hover{
+    box-shadow: 0px 0px 5px 0px #d2a34d;
+    background-color: rgb(43, 51, 106);
+    color: #d2a34d;
+    cursor: pointer;
+}
+.save-reset .reset{
+    border-radius: 8px;
+    padding: 2px 5px;
+    background-color: #d2a34d;
+    transition-property: box-shadow, background-color, color, cursor;
+    transition-duration: 0.25s;
+}
+.save-reset .reset:hover{
+    box-shadow: 0px 0px 5px 1px #d2a34d;
+    background-color: rgb(43, 51, 106);
+    color: #d2a34d;
+    cursor: pointer;
+}
+.agree{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+}
+.agree label{
+    color: white;
+    font-size: 90%;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.agree input{
+    color: white;
+    margin-left: 1rem;
+}
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index-Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/blog.css" />
+    <!-- Sweet Alert2 --> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Toastify Alert -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+  </style>
+
+  <body>
+    <main>
+      <!-- Login Form -->
+      <div class="main-page">
+        <section class="login-form">
+          <form action="">
+            <div class="user-and-pass">
+              <div class="user">
+                <label for="username"
+                  ><i class="fa fa-user-o" aria-hidden="true"></i>
+                  &nbsp;Username</label
+                >
+                <input
+                  type="text"
+                  placeholder="Enter username"
+                  class="username"
+                />
+              </div>
+              <div class="pass">
+                <label for="username"
+                  ><i class="fa fa-key" aria-hidden="true"></i>
+                  &nbsp;Password</label
+                >
+                <input
+                  type="password"
+                  placeholder="Enter password"
+                  class="password"
+                />
+              </div>
+            </div>
+
+            <div class="login-and-forget">
+              <button type="button" class="login">
+                <i class="fa fa-sign-in" aria-hidden="true"></i> &nbsp;Login
+              </button>
+              <a href="myFeed.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>
+                &nbsp;Go to Home</a>
+            </div>
+
+            <div class="create-new">
+              <p class="para">Don't have account?</p>
+              <button type="button" class="create">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>&nbsp;Create
+                New
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <!-- Pop-up Form -->
+      <div class="registration-form d-none">
+        <div class="inner-form">
+          <form action="">
+            <div class="regi-user-pass">
+              <label for="username"
+                ><i
+                  class="fa fa-arrow-circle-right"
+                  aria-hidden="true"
+                  value=""
+                ></i
+                >&nbsp;&nbsp;Full Name</label
+              >
+              <input
+                type="text"
+                class="fullname"
+                placeholder="Enter Full-Name"
+                required
+              />
+              <label for="email"
+                ><i class="fa fa-arrow-circle-right" aria-hidden="true"></i
+                >&nbsp;&nbsp;Email</label
+              >
+              <input
+                type="email"
+                class="email"
+                placeholder="Enter Email"
+                required
+              />
+              <label for="username"
+                ><i class="fa fa-arrow-circle-right" aria-hidden="true"></i
+                >&nbsp;&nbsp;Password</label
+              >
+              <input
+                type="password"
+                class="password1"
+                placeholder="Enter Password"
+                required
+              />
+              <label for="username"
+                ><i class="fa fa-arrow-circle-right" aria-hidden="true"></i
+                >&nbsp;&nbsp;Confirm Password</label
+              >
+              <input
+                type="password"
+                class="cnf-password"
+                placeholder="Enter Confirm-Password"
+                required
+              />
+            </div>
+
+            <div class="save-reset">
+              <button type="button" class="save">Save</button>
+              <button class="reset" type="reset">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./JS/util.js"></script>
+    <script src="./JS/blog.js"></script>
+  </body>
+</html>

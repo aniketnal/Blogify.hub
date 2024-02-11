@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Write-Blog-Page</title>
+    <link rel="stylesheet" href="write-blog.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/blog.css">
+    <link rel="stylesheet" href="./CSS/write-blog.css" />
+    <!-- Sweet Alert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    
+    <!-- Toastify Alert -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+  </style>
+  </head>
+  <body>
+    <main>
+        <section class="sec-1">
+            <header class="main-1">
+              <span class="brand"> Blogify Hub </span>
+    
+              <ul class="menu">
+                <li><a href="myBlogs.html">My Blogs</a></li>
+                <li><a href="myFeed.html">Feed</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+              <span id="welcome-text"></span>
+              <button type="button" id="logout">Logout
+              </button>
+            </header>
+          </section>
+      </section>
+
+      <section class="sec-2">
+        <div class="main-2">
+          <div class="text-sec">
+            <div class="blog-title">
+              <h3>Write a Blog</h3>
+            </div>
+            <div class="blog-input">
+              <input type="text" placeholder="title" class="title"/>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="description"
+                class="description"
+              ></textarea>
+              <input type="text" placeholder="Enter Url for Image" class="URL">
+              <div class="btn">
+                <button type="button" id="save-blog">Save</button>
+              </div>
+            </div>
+          </div>
+          <div class="image-sec">
+              <img
+                src=""
+                alt="" id="write-img"
+              />
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./JS/util.js"></script>
+    <script src="./JS/write-blog.js"></script>
+  </body>
+</html>

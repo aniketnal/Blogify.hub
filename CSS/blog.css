@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Images/7973193_3398605.jpg);
+    position: sticky;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.main-page{
+    height: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+/* Other */
+
+.login-form{
+    margin-top: 10rem;
+    margin-right: 90px;
+    background-color: rgb(22 19 59);
+    box-shadow: rgb(19 17 14) 0px 0px 7px 2px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px 15px;
+}
+
+.login-form .user-and-pass{
+    display: flex;
+    /* padding: 10px; */
+    flex-direction: column;
+}
+
+.login-form .user{
+    display: flex;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+}
+.login-form .user input{
+    width: 60%;
+    padding: 3px;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #d2a34d;
+    color: white;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.login-form .user input:focus{
+    width: 100%;
+}
+.login-form .pass input{
+    width: 60%;
+    padding: 3px;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #d2a34d;
+    color: white;
+    transition-property: width;
+    transition-duration: 0.5s
+}
+.login-form .pass input:focus{
+    width: 100%;
+
+}
+.login-form .user label{
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #d2a34d;
+}
+.login-form .pass label{
+    padding: 0.5rem;
+    font-weight: bold;
+    color: #d2a34d;
+}
+.login-form .pass{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .login-and-forget{
+    margin-top: 1.5rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.login-form .login-and-forget button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form .login-and-forget .login{
+    /* padding: 0.25rem; */
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 1rem;
+    background-color: #d2a34d;
+    border-style: none;
+    transition-property: box-shadow, background-color, color;
+    transition-duration: 0.1s;
+    cursor: pointer;
+
+
+    
+}
+.login-form .login-and-forget .login:hover{
+    box-shadow: 0px 0px 5px 1px #d2a34d;
+    background-color: rgb(43, 51, 106);
+    color: #d2a34d;
+}
+
+.login-form .login-and-forget a{
+    color: white;
+    text-decoration: none;
+    /* margin-top: r; */
+    margin-left: 10rem;
+    margin-right: 2rem;
+    transition-property: color, transform;
+    transition-duration: 0.2s;
+
+}
+
+.login-form .login-and-forget a:hover{
+    color: #d2a34d;
+    transform: scale(0.9);
+}
+
+
+.login-form .create-new{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form .create-new a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    transition-property: color, transform;
+    transition-duration: 0.2s;
+
+}
+.login-form .create-new a:hover{
+    color: #d2a34d;
+    transform: scale(0.9);
+}
+.login-form .create-new .para{
+    color: rgb(143 143 143);
+}
+
+
+
+
+
+/* Designing the Registration Form Here */
+body{
+    position: relative;
+}
+.registration-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.814);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    /* display: none; */
+
+
+}
+.inner-form{
+    padding: 1rem;
+    width: 25vw;
+    height: 60vh;
+    background-color: rgb(22 19 59);
+    border-radius: 12px;
+}
+.inner-form .regi-user-pass{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-form .regi-user-pass label{
+    color: #d2a34d;
+    padding: 1rem 0.5rem;
+    margin-left: 0.5rem;
+}
+.inner-form .regi-user-pass input{
+    width: 60%;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #d2a34d;
+    transition-property: width;
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.inner-form .regi-user-pass input:focus{
+    width: 90%;
+
+}
+
+.save-reset{
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.save-reset .save{
+    margin-right: 1rem;
+    border-radius: 8px;
+    padding: 2px 5px;
+    background-color: #d2a34d;
+    transition-property: box-shadow, background-color, color, cursor;
+    transition-duration: 0.25s;
+}
+.save-reset .save:hover{
+    box-shadow: 0px 0px 5px 0px #d2a34d;
+    background-color: rgb(43, 51, 106);
+    color: #d2a34d;
+    cursor: pointer;
+}
+.save-reset .reset{
+    border-radius: 8px;
+    padding: 2px 5px;
+    background-color: #d2a34d;
+    transition-property: box-shadow, background-color, color, cursor;
+    transition-duration: 0.25s;
+}
+.save-reset .reset:hover{
+    box-shadow: 0px 0px 5px 1px #d2a34d;
+    background-color: rgb(43, 51, 106);
+    color: #d2a34d;
+    cursor: pointer;
+}
+.agree{
+    display: flex;
+    justify-content: start;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+}
+.agree label{
+    color: white;
+    font-size: 90%;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.agree input{
+    color: white;
+    margin-left: 1rem;
+}
+
+
+
+
+/*  fonts 
+    font-family: 'Protest Strike', sans-serif; (brand)
+    font-family: 'Josefin Sans', sans-serif; (content)
+*/
+
+.create{
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+    border-radius: 8px;
+    padding: 2px 5px;
+    background-color: #d2a34d;
+    transition-property: box-shadow, background-color, color, cursor;
+    transition-duration: 0.25s;
+}
+.create:hover{
+    box-shadow: 0px 0px 5px 0px #d2a34d;
+    background-color: rgb(43, 51, 106);
+    color: #d2a34d;
+    cursor: pointer;
+}
+.d-none{
+    display: none !important;
+}

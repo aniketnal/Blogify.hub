@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Images/7973193_3398605.jpg);
+    position: sticky;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+  }
+    
+
+.sec-1{
+    position: sticky;
+    top: 0;
+}
+.main-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #393e46;
+    box-shadow: rgb(19 17 14) 0px 0px 7px 2px;
+    background-color: rgb(22 19 59);
+    
+    /* background-color: #f96d00; */
+}
+.main-1 .brand{
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+    text-decoration: none;
+}
+
+.main-1 .menu{
+    display: flex;
+    align-items: center;
+}
+
+.main-1 .menu li > a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.main-1 .menu li{
+    list-style: none;
+    margin: 0 2rem;
+    border-bottom: 2px solid rgb(22 19 59);
+    transition-property: border-bottom;
+    transition-duration: 0.25s;
+    
+    
+}
+.main-1 .menu li:hover{
+    border-bottom: 2px solid #d2a34d;
+}
+
+.main-1 button{
+    display: flex;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #f86c6b;
+    color: black;
+    transition-property: background-color, color, transform;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    
+    
+    /* margin-left: 10rem; */
+} 
+
+.main-1 button a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-1 button:active{
+    background-color: #f2f2f2;
+    color: black;
+}
+.main-1 button:hover{
+    transform: scale(1.05);
+}
+
+.about-card{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* margin-top: 8rem; */
+}
+
+article{
+    /* width: 60%;
+    height: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22 19 59);
+    box-shadow: rgb(19 17 14) 0px 0px 7px 2px;
+    border: 1px solid black;
+    /* border-radius: 20px; */
+    overflow: hidden;
+    margin-top: 3rem;
+    /* margin-bottom: 2rem; */
+}
+
+.left-side{
+    width: 60%;
+    margin: 1rem 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.left-side > h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.left-side > p{
+    color: white;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.right-side{
+    width: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.right-side img{
+    height: 100%;
+    width: 90%;
+
+
+}
+.wrap{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/*  fonts 
+    font-family: 'Protest Strike', sans-serif; (brand)
+    font-family: 'Josefin Sans', sans-serif; (content)
+*/

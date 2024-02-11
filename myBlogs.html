@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myBlogs-Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/myBlogs.css">
+
+    <!-- Sweet Alert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+    
+    <!-- Toastify Alert -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+  </style>
+  <body>
+    <main>
+      
+        <!-- Navbar -->
+    <section class="sec-1">
+        <header class="main-1">
+            <span class="brand"> Blogify Hub </span>
+  
+          <ul class="menu">
+            <li><a href="myBlogs.html">My Blogs</a></li>  
+            <li><a href="myFeed.html">Feed</a></li>  
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+  
+          <div class="btns">
+            <button>
+              <i class="fa fa-pencil" aria-hidden="true"></i> &nbsp;<a href="write-blog.html">Write</a>
+            </button>
+            <button type="button" id="logoutbtn">
+            </button>
+          </div>
+        </header>
+      </section>   
+      
+      <section class="sec-2" style="height: 100vh; overflow-y: scroll;">
+        
+      </section>
+    </main>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./JS/util.js"></script>
+    <script src="./JS/myBlogs.js"></script>
+  </body>
+</html>

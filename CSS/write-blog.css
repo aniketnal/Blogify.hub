@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+span,
+li,
+button {
+  color: #f2f2f2;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../Images/7973193_3398605.jpg);
+  position: sticky;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+}
+.main-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #393e46;
+  box-shadow: rgb(19 17 14) 0px 0px 7px 2px;
+  background-color: rgb(22 19 59);
+
+  /* background-color: #f96d00; */
+}
+.main-1 .brand{
+  font-size: 1.8rem;
+  color: white;
+  font-family: 'Protest Strike', sans-serif;
+  text-decoration: none;
+}
+
+.main-1 .menu {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.main-1 .menu li > a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.main-1 .menu li {
+  list-style: none;
+  margin: 0 2rem;
+  border-bottom: 2px solid rgb(22 19 59);
+  transition-property: border-bottom;
+  transition-duration: 0.25s;
+}
+.main-1 .menu li:hover {
+  border-bottom: 2px solid #d2a34d;
+}
+
+.main-1 #logout {
+  display: flex;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #f86c6b;
+    color: black;
+    transition-property: background-color, color, transform;
+    transition-duration: 0.1s;
+    cursor: pointer;
+
+  /* margin-left: 10rem; */
+}
+
+.main-1 button:active {
+  background-color: #f2f2f2;
+  color: black;
+}
+.main-1 button:hover {
+  transform: scale(1.05);
+}
+
+/*  fonts 
+        font-family: 'Protest Strike', sans-serif; (brand)
+        font-family: 'Josefin Sans', sans-serif; (content)
+    */
+.sec-2 {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.main-2 {
+  width: 40%;
+  height: 50%;
+  box-shadow: rgb(19 17 14) 0px 0px 7px 2px;
+  background-color: rgb(22 19 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.main-2 .text-sec {
+  width: 60%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.blog-title {
+  color: #f2f2f2;
+}
+.blog-input {
+  margin-top: 1rem;
+}
+.blog-input .title {
+  width: 80%;
+  display: flex;
+  background-color: white;
+  transition-property: width;
+  transition-duration: 0.5s;
+  padding-left: 10px;
+}
+.blog-input .url {
+  width: 80%;
+  display: flex;
+  background-color: white;
+  transition-property: width;
+  transition-duration: 0.5s;
+  padding-left: 10px;
+  margin-top: 2rem;
+}
+
+.blog-input textarea {
+  width: 80%;
+  height: 30%;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  background-color: white;
+  color: black;
+  resize: none;
+  padding-left: 10px;
+  transition-property: height;
+  transition-duration: 0.5s;
+}
+
+
+
+.btn button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #f96d00;
+  color: white;
+  transition-property: background-color, color, transform;
+  transition-duration: 0.1s;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: transform;
+  transition-duration: 0.25s;
+}
+.btn button:hover {
+  transform: scale(1.05);
+}
+.btn button:active {
+  background-color: #f2f2f2;
+  color: #f96d00;
+}
+.image-sec {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  box-shadow: black 0px 0px 7px 2px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.image-sec img {
+  width: 100%;
+  height: 100%;
+  padding: 0rem;
+  overflow: hidden;
+}
+#welcome-text{
+  color: white;
+}
+
+
